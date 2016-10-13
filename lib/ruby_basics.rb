@@ -1,23 +1,23 @@
-def division
-    
+def division(numberx,numbery)
+    numberx/numbery
 end
 
-def argue
-  
+def argue(name)
+  "#{name}"
 end
 
-def greeting
-
+def greeting(greeting,name)
+    "#{greeting}, #{name}."
 end
 
-def return_a_value
-    
+def return_a_value(x = "Nice")
+    "#{x}"
 end
 
-def pizza_party
-    
+def pizza_party(x = "cheese")
+    "#{x}"    
 end
 
-def whisper
-    
+def whisper(shhh)
+    "#{shhh.downcase}"
 end
